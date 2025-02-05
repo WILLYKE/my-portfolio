@@ -56,24 +56,21 @@
             <p>This article discusses how coding skills can enhance storytelling and content creation.</p>
         </article>
     </section>
-    
-
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contact-form">
+        <form id="contact-form" action="    https://formspree.io/f/xdkadnwk" method="POST">
             <label for="name">Name:</label>
-            <input type="text" id="name" required>
-
+            <input type="text" id="name" name="name" required>
+    
             <label for="email">Email:</label>
-            <input type="email" id="email" required>
-
+            <input type="email" id="email" name="email" required>
+    
             <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-
-            <button type="submit">Send</button>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Send Message</button>
         </form>
-    </section>
-
+    </section> 
     <footer>
         <p>&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
